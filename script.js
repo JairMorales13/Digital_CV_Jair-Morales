@@ -234,3 +234,5 @@ window.addEventListener("load", () => {
 
 console.log("%c👋 Welcome to my portfolio!", "color: #64ffda; font-size: 20px; font-weight: bold;")
 console.log("%cInterested in the code? Check out my GitHub!", "color: #8892b0; font-size: 14px;")
+
+

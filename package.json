@@ -2,8 +2,11 @@
   "name": "my-v0-project",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://JairMorales13.github.io/Digital_CV_Jair-Morales",
   "scripts": {
     "build": "next build",
+    "predeploy": "powershell -NoProfile -ExecutionPolicy Bypass -Command \"Remove-Item -Recurse -Force dist-gh -ErrorAction SilentlyContinue; New-Item -ItemType Directory dist-gh | Out-Null; Copy-Item -Path index.html,style.css,script.js -Destination dist-gh -Force; Copy-Item -Path img -Destination dist-gh -Recurse -Force\"",
+    "deploy": "gh-pages -d dist-gh",
     "dev": "next dev",
     "lint": "next lint",
     "start": "next start"
@@ -66,6 +69,7 @@
     "@types/node": "^22",
     "@types/react": "^18",
     "@types/react-dom": "^18",
+    "gh-pages": "^6.3.0",
     "postcss": "^8.5",
     "tailwindcss": "^4.1.9",
     "tw-animate-css": "1.3.3",
