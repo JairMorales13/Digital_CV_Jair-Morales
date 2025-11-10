@@ -163,11 +163,22 @@ a:hover {
   align-items: center;
 }
 
-.nav-logo .logo-text {
-  font-family: var(--font-heading);
-  font-size: 1.5rem;
-  font-weight: 700;
-  color: var(--color-accent);
+.nav-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* position */
+}
+
+.logo-img {
+    width: 70px;   
+    height: auto;
+    object-fit: contain;
+    cursor: pointer;
+    transition: transform 0.3s ease; /* hover effect */
+}
+
+.logo-img:hover {
+    transform: scale(1.25);
 }
 
 .nav-menu {
