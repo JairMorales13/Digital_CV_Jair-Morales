@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Digital CV and Portfolio - UI/UX Designer & Web Developer">
+    <title>Digital CV - JMMM</title>
+    <link rel="icon" type="image/png" href="img/Moon.png">
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="img/Logotipo.png" alt="Logo" class="logo-img">
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <!-- Animated background elements -->
+        <div class="bg-decoration decoration-1"></div>
+        <div class="bg-decoration decoration-2"></div>
+        <div class="bg-decoration decoration-3"></div>
+        
+        <div class="hero-container">
+            <div class="hero-content">
+                <!-- Profile Image -->
+                <div class="profile-image-wrapper">
+                    <img src="unnamed.jpg" alt="Profile Photo" class="profile-image">
+                </div>
+                
+                <!-- Hero Text -->
+                <h1 class="hero-title">
+                    <span class="hero-greeting">Hello, I'm</span>
+                    <span class="hero-name">Jair Morales </span>
+                </h1>
+                
+                <p class="hero-subtitle">Designer & Web Developer</p>
+                
+                <p class="hero-description">
+                    Creating innovative digital experiences 
+                
+                <!-- CTA Buttons -->
+                <div class="hero-buttons">
+                    <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=new" class="btn btn-primary">Get In Touch</a>
+                    <a href="cv.pdf" download class="btn btn-secondary">Download CV</a>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Scroll indicator -->
+        <div class="scroll-indicator">
+            <span>Scroll Down</span>
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="section-divider"></div>
+            
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="about-intro">
+                        I'm a passionate high school student with a strong interest in technology and programming. 
+                        Currently studying at Centro Educativo Guillermo Endara Galimany and taking advanced courses at Centro ¡Supérate!, 
+                        I've developed skills in web development and application design through self-learning and hands-on projects.
+                    </p>
+                    <p class="about-description">
+                        My journey in technology started with a curiosity about how websites work, which evolved into 
+                        creating full-fledged web applications. I specialize in building user-friendly interfaces and 
+                        developing solutions that make a positive impact on people's digital experiences.
+                    </p>
+                </div>
+                
+                <!-- Personal Info Cards -->
+                <div class="info-grid">
+                    <div class="info-card">
+                        <div class="info-icon"><img src="img/Email.png" width="38" height="35"> </div>
+                        <div class="info-content">
+                            <span class="info-label">Email</span>
+                            <span class="info-value">jairm9010@gmail.com</span>
+                        </div>
+                    </div>
+
+                    <div class="info-card">
+                        <div class="info-icon"><img src="img/location.png" width="29" height="30"></div>
+                        <div class="info-content">
+                            <span class="info-label">Location</span>
+                            <span class="info-value">Panamá, Panamá Oeste</span>
+                        </div>
+                    </div>
+                    
+                    <div class="info-card">
+                        <div class="info-icon"><img src="img/Education.png" width="38" height="35"></div>
+                        <div class="info-content">
+                            <span class="info-label">Education</span>
+                            <span class="info-value">High School Student</span>
+                        </div>
+                    </div>
+                    
+                    <div class="info-card">
+                        <div class="info-icon"><img src="img/job.png" width="30" height="30"></div>
+                        <div class="info-content">
+                            <span class="info-label">Focus</span>
+                            <span class="info-value">Web Development</span>
+                        </div>
+                    </div>
+                    
+                    <div class="info-card">
+                        <div class="info-icon"><img src="img/World.png" width="38" height="35"></div>
+                        <div class="info-content">
+                            <span class="info-label">Languages</span>
+                            <span class="info-value">Spanish (Native), English (B2)</span>
+                        </div>
+                    </div>
+                    
+                    <div class="info-card">
+                        <div class="info-icon"><img src="img/Freelance.png" width="48" height="45"></div>
+                        <div class="info-content">
+                            <span class="info-label">Freelance</span>
+                            <span class="info-value">Available</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education & Experience Section -->
+    <section id="education" class="education-section">
+        <div class="container">
+            <h2 class="section-title">Education & Experience</h2>
+            <div class="section-divider"></div>
+            
+            <div class="timeline-grid">
+                <!-- Education Column -->
+                <div class="timeline-column">
+                    <h3 class="timeline-heading">
+                        <span class="timeline-icon"><img src="img/Education.png" width="38" height="35"></span>
+                        Education
+                    </h3>
+                    
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-marker"></div>
+                            <div class="timeline-content">
+                                <span class="timeline-date">2020 - 2025</span>
+                                <h4 class="timeline-title">High School - Science Track</h4>
+                                <p class="timeline-location">Centro Educativo Guillermo Endara Galimany</p>
+                                <p class="timeline-description">
+                                    Currently pursuing bachillerato en Ciencias
+                                </p>
+                            </div>
+                        </div>
+                        
+                        <div class="timeline-item">
+                            <div class="timeline-marker"></div>
+                            <div class="timeline-content">
+                                <span class="timeline-date">2023 - 2025</span>
+                                <h4 class="timeline-title">Advanced Technology Courses</h4>
+                                <p class="timeline-location">Centro ¡Supérate! Fundación Alberto Motta </p>
+                                <p class="timeline-description">
+                                    Specialized courses in programming, web development, English , Valous and digital skills
+                                </p>
+                            </div>
+                        </div>
+                        
+                        <div class="timeline-item">
+                            <div class="timeline-marker"></div>
+                            <div class="timeline-content">
+                                <span class="timeline-date">2025</span>
+                                <h4 class="timeline-title">Python Programming Certification</h4>
+                                <p class="timeline-location">Certy-port</p>
+                                <p class="timeline-description">
+                                    Completed comprehensive Python programming course covering fundamentals and applications
+                                </p>
+                            </div>
+                        </div>
+                        
+                        <div class="timeline-item">
+                            <div class="timeline-marker"></div>
+                            <div class="timeline-content">
+                                <span class="timeline-date">2024</span>
+                                <h4 class="timeline-title">Microsoft Excel MOS Certification</h4>
+                                <p class="timeline-location">Microsoft Office Specialist</p>
+                                <p class="timeline-description">
+                                    Certified in advanced Excel skills including data analysis and automation
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Experience Column -->
+                <div class="timeline-column">
+                    <h3 class="timeline-heading">
+                        <span class="timeline-icon"><img src="img/job.png" width="38" height="35"></span>
+                        Experience
+                    </h3>
+                    
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-marker"></div>
+                            <div class="timeline-content">
+                                <span class="timeline-date">2024 - 2025</span>
+                                <h4 class="timeline-title">Customer Service & Administrative Assistant</h4>
+                                <p class="timeline-location">Ocean Blue Services, Panama</p>
+                                <ul class="timeline-list">
+                                    <li>Supported daily administrative operations including data entry and document management</li>
+                                    <li>Handled customer inquiries and ensured client satisfaction</li>
+                                    <li>Collaborated with team to improve internal processes</li>
+                                    <li>Developed professional communication and problem-solving skills</li>
+                                </ul>
+                            </div>
+                        </div>
+                        
+                        <div class="timeline-item">
+                            <div class="timeline-marker"></div>
+                            <div class="timeline-content">
+                                <span class="timeline-date">2024 - 2025</span>
+                                <h4 class="timeline-title">Technology Assistant</h4>
+                                <p class="timeline-location">Banco Mercantil, Panama</p>
+                                <ul class="timeline-list">
+                                    <li>Provided technical support for hardware and software issues</li>
+                                    <li>Assisted in digitalization of documents and records organization</li>
+                                    <li>Maintained IT equipment and troubleshooted technical problems</li>
+                                    <li>Supported digital transformation initiatives</li>
+                                </ul>
+                            </div>
+                        </div>
+                        
+                        <div class="timeline-item">
+                            <div class="timeline-marker"></div>
+                            <div class="timeline-content">
+                                <span class="timeline-date">2023 - 2025</span>
+                                <h4 class="timeline-title">Freelance Web Developer</h4>
+                                <p class="timeline-location">Self-Employed</p>
+                                <ul class="timeline-list">
+                                    <li>Designed and developed custom websites and web applications</li>
+                                    <li>Created user-friendly interfaces with focus on UX/UI principles</li>
+                                    <li>Managed projects from concept to deployment</li>
+                                    <li>Built responsive and accessible web solutions</li>
+                                </ul>
+                            </div>
+                        </div>
+                        
+                        <div class="timeline-item">
+                            <div class="timeline-marker"></div>
+                            <div class="timeline-content">
+                                <span class="timeline-date">2025</span>
+                                <h4 class="timeline-title">Volunteer - Community Development</h4>
+                                <p class="timeline-location">TECHO Panamá</p>
+                                <ul class="timeline-list">
+                                    <li>Participated in community development projects</li>
+                                    <li>Collaborated with diverse teams on social impact initiatives</li>
+                                    <li>Developed leadership and teamwork skills</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section">
+        <div class="container">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="section-divider"></div>
+            
+            <div class="skills-content">
+                <!-- Skill bars with animation -->
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <span class="skill-name">HTML & CSS</span>
+                        <span class="skill-percentage">95%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-progress="95"></div>
+                    </div>
+                </div>
+                
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <span class="skill-name">JavaScript</span>
+                        <span class="skill-percentage">65%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-progress="65"></div>
+                    </div>
+                </div>
+                
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <span class="skill-name">Python</span>
+                        <span class="skill-percentage">80%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-progress="80"></div>
+                    </div>
+                </div>
+                
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <span class="skill-name">React</span>
+                        <span class="skill-percentage">25%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-progress="25"></div>
+                    </div>
+                </div>
+                
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <span class="skill-name">UI/UX Design</span>
+                        <span class="skill-percentage">90%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-progress="90"></div>
+                    </div>
+                </div>
+                
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <span class="skill-name">Responsive Design</span>
+                        <span class="skill-percentage">95%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-progress="95"></div>
+                    </div>
+                </div>
+                
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <span class="skill-name">Git & Version Control</span>
+                        <span class="skill-percentage">73%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-progress="73"></div>
+                    </div>
+                </div>
+                
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <span class="skill-name">Microsoft Excel</span>
+                        <span class="skill-percentage">85%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-progress="85"></div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Additional Skills Tags -->
+            <div class="skills-tags">
+                <h3 class="skills-tags-title">Additional Skills & Tools</h3>
+                <div class="tags-container">
+                    <span class="skill-tag">Figma</span>
+                    <span class="skill-tag">Github</span>
+                    <span class="skill-tag">Canva</span>
+                    <span class="skill-tag">Node.js</span>
+                    <span class="skill-tag">Email Redactation</span>
+                    <span class="skill-tag">Problem Solving</span>
+                    <span class="skill-tag">Team Collaboration</span>
+                    <span class="skill-tag">Communication</span>
+                    <span class="skill-tag">Time Management</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio-section">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="section-divider"></div>
+            
+            <div class="portfolio-grid">
+                <!-- Project 1: TimeBe -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="img/TimeBe.png" alt="TimeBe Project">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://timebich.github.io/timebi.github.io/Home.html" class="project-link">View Demo</a>
+                                <a href="https://github.com/JairMorales13/timebi.github.io" class="project-link">View Code</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">TimeBe</h3>
+                        <p class="project-subtitle">Digital Moderation & Time Management Platform</p>
+                        <p class="project-description">
+                            A comprehensive web application designed to help users develop healthier relationships 
+                            with social media and digital technology. TimeBe promotes digital moderation, online 
+                            reflection, and authentic connections while helping users manage their screen time effectively.
+                        </p>
+                        
+                        <div class="project-features">
+                            <h4 class="features-title">Key Features:</h4>
+                            <ul class="features-list">
+                                <li><strong>Digital Moderation:</strong> Tools to track and limit social media usage</li>
+                                <li><strong>Online Reflection:</strong> Encourages meaningful content consumption and sharing</li>
+                                <li><strong>Time Offline:</strong> Promotes healthy breaks from digital technology</li>
+                                <li><strong>Authentic Connection:</strong> Focus on building genuine relationships over follower counts</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="project-impact">
+                            <p class="impact-text">
+                                "After 3 years in development and being able to notice the great changes we have been 
+                                able to make, it fills us with gratitude and pride to see how what once was seen as a 
+                                problem is now beginning to be solved."
+                            </p>
+                        </div>
+                        
+                        <div class="project-tags">
+                            <span class="tag">HTML/CSS</span>
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">UI/UX Design</span>
+                            <span class="tag">Responsive</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 2: FoodWizz -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="img/Foodwizz.png" alt="FoodWizz Project">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://foodwizz-website.firebaseapp.com/index.html" class="project-link">View Demo</a>
+                                <a href="https://github.com/FoodWizz25/FoodWizz.web" class="project-link">View Code</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">FoodWizz</h3>
+                        <p class="project-subtitle">Restaurant Inventory Management System</p>
+                        <p class="project-description">
+                            A comprehensive inventory management solution designed specifically for restaurants and 
+                            food service businesses. FoodWizz helps track ingredients, manage stock levels, reduce 
+                            waste, and optimize ordering processes.
+                        </p>
+                        
+                        <div class="project-features">
+                            <h4 class="features-title">Key Features:</h4>
+                            <ul class="features-list">
+                                <li><strong>Real-time Inventory Tracking:</strong> Monitor stock levels and ingredient usage</li>
+                                <li><strong>Automated Alerts:</strong> Notifications for low stock and expiring items</li>
+                                <li><strong>Order Management:</strong> Streamline supplier orders and deliveries</li>
+                                <li><strong>Analytics Dashboard:</strong> Insights on usage patterns and cost optimization</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="project-tags">
+                            <span class="tag">HTML & CSS</span>
+                            <span class="tag">Firebase</span>
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">Data Visualization</span>
+                            <span class="tag">Git GUI</span>
+                            <span class="tag">Visual Studio Code VS</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 3: Portfolio Website -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="img/Flowers.png" alt="Portfolio Website">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://jairmorales13.github.io/Flowers/" class="project-link">View Demo</a>
+                                <a href="https://github.com/JairMorales13/Flowers" class="project-link">View Code</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Flowers</h3>
+                        <p class="project-subtitle">Digital Flowers</p>
+                        <p class="project-description">
+                            This is a gift for my friends and my family, very special to me.
+                        </p>
+                        
+                        <div class="project-tags">
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                            <span class="tag">JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="section-divider"></div>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3 class="contact-heading">Let's Connect</h3>
+                    <p class="contact-text">
+                        I'm always interested in hearing about new projects and opportunities. 
+                        Whether you have a question or just want to say hi, feel free to reach out!
+                    </p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon"><img src="img/Email.png" width="38" height="35"></div>
+                            <div>
+                                <h4 class="contact-label">Email</h4>
+                                <a href="mailto:jairm9010@gmail.com" class="contact-link">jairm9010@gmail.com</a>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon"><img src="img/location.png" width="38" height="35"></div>
+                            <div>
+                                <h4 class="contact-label">Location</h4>
+                                <p class="contact-value">Panamá, Panamá Oeste</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon"><img src="img/job.png" width="38" height="35"></div>
+                            <div>
+                                <h4 class="contact-label">Availability</h4>
+                                <p class="contact-value">Open to freelance opportunities</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="social-links">
+                        <h4 class="social-heading">Follow Me</h4>
+                        <div class="social-icons">
+                            <a href="https://github.com/JairMorales13" class="social-icon" aria-label="GitHub">
+                                <svg viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                                </svg>
+                            </a>
+                            <a href="mailto:jairm9010@gmail.com" class="social-icon" aria-label="Email">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                                    <polyline points="22,6 12,13 2,6"></polyline>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Contact Form -->
+                <div class="contact-form-wrapper">
+                    <form class="contact-form" id="contact-form">
+                        <div class="form-group">
+                            <label for="name" class="form-label">Your Name</label>
+                            <input type="text" id="name" name="name" class="form-input" placeholder="John Doe" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email" class="form-label">Your Email</label>
+                            <input type="email" id="email" name="email" class="form-input" placeholder="john@example.com" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="subject" class="form-label">Subject</label>
+                            <input type="text" id="subject" name="subject" class="form-input" placeholder="Project Inquiry" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea id="message" name="message" class="form-textarea" rows="5" placeholder="Tell me about your project..." required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary btn-full">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-text">
+                    <p>&copy; 2025 Digital CV Portfolio. JM</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#home" class="footer-link">Back to Top</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
+
+
